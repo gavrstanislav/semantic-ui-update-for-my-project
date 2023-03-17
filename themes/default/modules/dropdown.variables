@@ -19,7 +19,7 @@
 --------------------*/
 
 /* Icon */
-@dropdownIconSize: @relative12px;
+@dropdownIconSize: @relative13px;
 @dropdownIconMargin: 0em 0em 0em 1em;
 
 /* Current Text */
@@ -128,7 +128,7 @@
 
 @selectionMinWidth: 14em;
 @selectionVerticalPadding: @inputVerticalPadding;
-@selectionHorizontalPadding: @inputHorizontalPadding;
+@selectionHorizontalPadding: @inputHorizontalPadding - 0.2;
 @selectionBorderEmWidth:  @relative1px;
 @selectionMinHeight: @inputLineHeight + (@selectionVerticalPadding * 2) - @selectionBorderEmWidth;
 @selectionBackground: @inputBackground;
@@ -159,8 +159,8 @@
 @selectionIconOpacity: 0.8;
 @selectionIconZIndex: 3;
 @selectionIconHitbox: @selectionVerticalPadding;
-@selectionIconMargin: -@selectionIconHitbox;
-@selectionIconPadding: @selectionIconHitbox / @dropdownIconSize;
+@selectionIconMargin: -(@selectionIconHitbox);
+@selectionIconPadding: (@selectionIconHitbox / @dropdownIconSize);
 @selectionIconTransition: opacity @defaultDuration @defaultEasing;
 
 @selectionMenuBorderRadius: 0em 0em @borderRadius @borderRadius;
