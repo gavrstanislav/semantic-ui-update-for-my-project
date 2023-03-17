@@ -1,0 +1,11 @@
+{
+  "name": "semantic-ui-update-for-my-project",
+  "version": "1.0.0",
+  "title": "Semantic UI",
+  "description": "LESS Only distribution of Semantic UI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gavrstanislav/semantic-ui-update-for-my-project"
+  }
+}
